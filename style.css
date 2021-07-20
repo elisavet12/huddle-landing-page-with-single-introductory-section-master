@@ -28,7 +28,7 @@ main {
 }
 
 .logo {
-  width: 200px;
+  width: 140px;
   height: 34px;
 }
 
@@ -65,16 +65,29 @@ main {
   font-family: "Poppins";
 }
 
-.footer {
+footer {
   width: auto;
   height: auto;
   margin-bottom: 40px;
 }
 
+.socials {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .social {
-  width: 42px;
-  height: 42px;
-  color: white;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.twitter {
+  background-color: var(--Violet);
 }
 
 @media only screen and (max-width: 1024px) {
