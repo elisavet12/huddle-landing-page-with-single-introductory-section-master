@@ -100,6 +100,10 @@ main {
   }
 
   @media only screen and (max-width: 636px) {
+    body {
+      background-image: url(./images/bg-mobile.svg);
+    }
+
     main {
       flex-direction: column;
       align-items: center;
