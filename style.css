@@ -65,6 +65,10 @@ main {
   font-family: "Poppins";
 }
 
+.register:hover {
+  background-color: var(--Soft-Magenta);
+}
+
 footer {
   width: auto;
   height: auto;
@@ -86,8 +90,8 @@ footer {
   background-color: white;
 }
 
-.twitter {
-  background-color: var(--Violet);
+.social:hover {
+  background-color: var(--Soft-Magenta);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -115,6 +119,7 @@ footer {
   @media only screen and (max-width: 636px) {
     body {
       background-image: url(./images/bg-mobile.svg);
+      overflow-x: hidden;
     }
 
     main {
@@ -135,11 +140,21 @@ footer {
     }
 
     .excerpt {
-      font-size: 16px;
+      font-size: 23px;
+      width: 33ch;
+      margin-bottom: 55px;
     }
 
-    .social {
+    footer {
+      margin-top: 100px;
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .socials {
       width: 208px;
+      margin-right: 15px;
+      margin-top: 120px;
     }
   }
 }
